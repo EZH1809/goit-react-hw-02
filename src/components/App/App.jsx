@@ -62,7 +62,7 @@ export default function App() {
           percentPositive={percentPositive}
         />
       ) : (
-        <Notification text="No feedback yet" />
+        <Notification message="No feedback yet" />
       )}
     </>
   );
