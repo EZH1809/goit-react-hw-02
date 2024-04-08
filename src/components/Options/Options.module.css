@@ -1,0 +1,21 @@
+button {
+  padding: 5px 15px;
+  border-radius: 4px;
+  box-shadow: 4px 4px 4px rgb(0 0 0 / 15%);
+
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out,
+    border 0.3s ease-in-out;
+    
+}
+button:not(:last-child) {
+  margin-right: 10px;
+}
+
+button:hover,
+button:focus {
+  background-color: teal;
+  color: white;
+  transition: all 0.2s;
+}
